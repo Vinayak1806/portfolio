@@ -1,0 +1,86 @@
+import { Experience } from "@/types";
+
+export const workExperience: Experience[] = [
+  {
+    id: "hsr-hi-tech",
+    role: "Full Stack Development (MERN) Intern",
+    company: "HSR Hi-Tech Solutions",
+    companyLocation: "Remote",
+    period: "July 2026 – Present",
+    isCurrent: true,
+    isHighlighted: true,
+    description:
+      "Selected for the core web engineering internship program to architect scalable client-server applications. Responsible for building modular React frontend components, designing robust Node.js/Express REST APIs, integrating MongoDB databases, and conducting end-to-end debugging throughout the agile development lifecycle.",
+    techStack: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JavaScript (ES6+)",
+      "RESTful APIs",
+      "Git",
+    ],
+    focusAreas: [
+      "Full-Stack Web Architecture",
+      "API Design & Optimization",
+      "Database Modeling & Schemas",
+      "Production Debugging",
+    ],
+    certificatePdf: "/certificates/hsr-internship.pdf",
+    certificateName: "Offer Letter & Internship Confirmation",
+  },
+  {
+    id: "codec-technologies",
+    role: "Data Analytics Intern",
+    company: "Codec Technologies India",
+    companyLocation: "Remote",
+    period: "January 2026 – February 2026",
+    isCurrent: false,
+    isHighlighted: false,
+    description:
+      "Processed real-world structured datasets using Python and Excel, executing programmatic data hygiene, null-value imputation, and statistical transformation. Created interactive multi-page Power BI reports and executive dashboards to communicate actionable operational KPIs.",
+    techStack: [
+      "Python",
+      "Pandas",
+      "NumPy",
+      "Power BI",
+      "Advanced Excel",
+      "Data Cleaning",
+    ],
+    focusAreas: [
+      "Exploratory Data Analysis (EDA)",
+      "Data Cleaning Pipelines",
+      "Executive Dashboard Reporting",
+      "KPI Metric Formulation",
+    ],
+    certificatePdf: "/certificates/codec-internship.pdf",
+    certificateName: "Internship Completion Certificate",
+  },
+  {
+    id: "excellent-software",
+    role: "Data Analytics Intern",
+    company: "Excellent Software Services Pvt. Ltd.",
+    companyLocation: "Remote",
+    period: "June 2024 – July 2024",
+    isCurrent: false,
+    isHighlighted: false,
+    description:
+      "Conducted comprehensive dataset cleaning, restructuring, and statistical analysis using Excel and Python. Leveraged relational SQL queries to extract multi-table data subsets, uncover operational usage patterns, and develop Power BI visual intelligence dashboards supporting corporate decision-making.",
+    techStack: [
+      "SQL",
+      "Python",
+      "Excel",
+      "Power BI",
+      "Relational Databases",
+      "Data Modeling",
+    ],
+    focusAreas: [
+      "SQL Querying & Joins",
+      "Data Transformation",
+      "Business Intelligence Dashboards",
+      "Trend Analysis",
+    ],
+    certificatePdf: "/certificates/itr-certificate.pdf",
+    certificateName: "ITR Internship Certificate",
+  },
+];
