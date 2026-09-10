@@ -9,22 +9,22 @@ export default function Hero() {
   return (
     <section className="relative w-full pt-28 pb-16 md:pt-36 md:pb-24 overflow-hidden bg-[#FAFAF8]">
       {/* Subtle Precision Architectural Background Grid */}
-      <div 
+      <div
         className="absolute inset-0 bg-[radial-gradient(#E4E4E7_1px,transparent_1px)] [background-size:24px_24px] opacity-60 pointer-events-none"
         aria-hidden="true"
       />
 
       <div className="max-w-content mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
-          
+
           {/* Left Narrative Column (7 cols) */}
           <div className="lg:col-span-7 flex flex-col items-start">
-            
+
             {/* Eyebrow Pill */}
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50/80 border border-blue-200/70 mb-6 shadow-sm">
               <span className="w-1.5 h-1.5 rounded-full bg-[#2563EB] animate-pulse"></span>
               <span className="font-mono text-[11px] font-semibold text-[#2563EB] uppercase tracking-widest">
-                FULL-STACK • SOFTWARE • DATA
+                FULL-STACK • SOFTWARE • DATA ANALYTICS
               </span>
             </div>
 
@@ -116,13 +116,13 @@ export default function Hero() {
           {/* Right Column: Editorial Photo Frame (5 cols) */}
           <div className="lg:col-span-5 flex justify-center lg:justify-end">
             <div className="relative w-full max-w-[370px]">
-              
+
               {/* Subtle Offset Geometric Underlay */}
               <div className="absolute -inset-2 rounded-xl border border-[#E4E4E7] -rotate-1 bg-[#F4F4F5]/60 pointer-events-none" />
 
               {/* Main Photo Card Container */}
               <div className="relative bg-white rounded-lg border border-[#E4E4E7] p-2.5 shadow-card overflow-hidden group">
-                
+
                 {/* Status Badge in Photo */}
                 <div className="absolute top-4 right-4 z-20 flex items-center gap-1.5 bg-white/95 backdrop-blur-sm border border-[#E4E4E7] px-2.5 py-1 rounded shadow-sm">
                   <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
@@ -155,7 +155,7 @@ export default function Hero() {
 
                   <div className="flex items-center gap-1.5 text-[11px] font-mono text-[#71717A] pt-1 border-t border-[#E4E4E7]/60">
                     <GraduationCap className="w-3.5 h-3.5 text-[#71717A]" />
-                    <span className="truncate">SAE Kondhwa • B.E. Computer (Pursuing)</span>
+                    <span className="truncate">SAE Kondhwa • B.E. Computer Engineering</span>
                   </div>
                 </div>
 

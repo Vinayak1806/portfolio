@@ -7,7 +7,7 @@ export const selectedProjects: Project[] = [
     subtitle: "Maharashtra FE & DSE College Predictor & CAP Decision Engine",
     category: "Full-Stack Data System",
     badge: "FLAGSHIP TECHNICAL PRODUCT",
-    year: "2025 – 2026",
+    year: "2026",
     description:
       "A high-performance admission intelligence platform transforming 100,000+ unstructured government cutoff entries into sub-40ms quota matching, probability zones, and automated CAP preference forms.",
     problemStatement:
@@ -138,7 +138,7 @@ export const selectedProjects: Project[] = [
     subtitle: "Smart Automated Collegiate Hostel Management System",
     category: "Full-Stack MERN Platform",
     badge: "FULL-STACK RESIDENCY SAAS",
-    year: "2025",
+    year: "2026",
     description:
       "A 100% paperless MERN residency platform replacing manual ledger books with real-time floor occupancy matrices, automated fee accounting, and digitized maintenance ticketing.",
     problemStatement:
