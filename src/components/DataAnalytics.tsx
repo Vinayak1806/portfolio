@@ -7,7 +7,7 @@ import { BarChart3, TrendingUp, AlertCircle, Database, Check } from "lucide-reac
 
 export default function DataAnalytics() {
   return (
-    <section className="w-full py-20 sm:py-28 bg-white border-t border-[#E4E4E7]" id="analytics">
+    <section className="w-full py-20 sm:py-28 bg-transparent border-t border-[#E4E4E7]" id="analytics">
       <div className="max-w-content mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}

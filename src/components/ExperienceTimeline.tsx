@@ -14,7 +14,7 @@ export default function ExperienceTimeline() {
 
   return (
     <>
-      <section className="w-full py-20 sm:py-28 bg-white border-t border-[#E4E4E7]" id="experience">
+      <section className="w-full py-20 sm:py-28 bg-transparent border-t border-[#E4E4E7]" id="experience">
         <div className="max-w-content mx-auto px-4 sm:px-6 lg:px-8">
           
           {/* Section Header */}

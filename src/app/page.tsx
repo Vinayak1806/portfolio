@@ -14,10 +14,14 @@ import AboutSection from "@/components/AboutSection";
 import LanguagesSection from "@/components/LanguagesSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
+import PixelGrid from "@/components/PixelGrid";
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen bg-[#FAFAF8] selection:bg-[#EFF6FF] selection:text-[#1D4ED8]">
+    <div className="relative isolate flex flex-col min-h-screen selection:bg-[#EFF6FF] selection:text-[#1D4ED8]">
+      {/* Live Interactive Pixel Grid Background */}
+      <PixelGrid />
+
       {/* Sticky Header Navigation */}
       <Navbar />
 

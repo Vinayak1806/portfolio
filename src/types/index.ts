@@ -33,6 +33,7 @@ export interface Project {
   githubUrl?: string;
   imageSrc: string;
   imageAlt: string;
+  softSkills?: string[];
 }
 
 export interface AnalyticsProject {

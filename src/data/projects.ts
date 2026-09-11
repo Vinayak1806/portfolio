@@ -11,9 +11,9 @@ export const selectedProjects: Project[] = [
     description:
       "A high-performance admission intelligence platform transforming 100,000+ unstructured government cutoff entries into sub-40ms quota matching, probability zones, and automated CAP preference forms.",
     problemStatement:
-      "300,000+ engineering aspirants annually navigate 1,000+ pages of dense, unstructured government allotment PDFs. With complex reservation matrices (Home University, Other Than Home University, TFWS, PwD, and Caste quotas), students lack objective decision tools and frequently misallocate choices, forfeiting merit seats.",
+      "300,000+ Maharashtra engineering aspirants annually navigate 1,000+ pages of dense government allotment PDFs spanning complex reservation matrices — Home University, Other Than Home University, TFWS, PwD, and caste sub-quotas. Without objective decision tools, students routinely misallocate CAP preferences and forfeit merit seats they were statistically eligible for.",
     solutionSummary:
-      "Engineered an automated Python ETL pipeline (pdfplumber) that parses and normalizes 100,000+ CAP allotment rows into indexed PostgreSQL. Built a sub-40ms algorithmic prediction engine that enforcers strict quota matrices, computes 4-tier probability zones (Safe, Target, Ambitious), and auto-generates official CAP preference lists.",
+      "Built an end-to-end admission intelligence system: a Python ETL pipeline (pdfplumber + Pandas) that parses and normalizes 100,000+ official CAP rows into indexed PostgreSQL, paired with a sub-40ms algorithmic engine that strictly enforces all reservation matrices, computes four-tier probability zones, and auto-generates submission-ready CAP preference PDFs.",
     features: [
       "FE MHT-CET percentile & DSE diploma percentage dual prediction engines",
       "Strict enforcement of Home University (HU), Other Than Home University (OHU), and State Level (SL) seat quota matrices",
@@ -131,6 +131,13 @@ export const selectedProjects: Project[] = [
     githubUrl: "https://github.com/Vinayak1806/College-predictor",
     imageSrc: "/images/admission-compass.png",
     imageAlt: "Admission Compass Maharashtra FE and DSE College Predictor Application UI showing cutoff prediction zones",
+    softSkills: [
+      "Domain Research",
+      "Systems Thinking",
+      "Product Ownership",
+      "Data-Driven Decision Making",
+      "User Empathy",
+    ],
   },
   {
     id: "hostel-hub",
@@ -142,9 +149,9 @@ export const selectedProjects: Project[] = [
     description:
       "A 100% paperless MERN residency platform replacing manual ledger books with real-time floor occupancy matrices, automated fee accounting, and digitized maintenance ticketing.",
     problemStatement:
-      "Campus hostels face massive administrative friction: physical paper registers, manual fee reconciliations, zero vacancy visibility for applicants, lost maintenance slips, and delayed leave sign-offs. Both administrators and resident students suffer from opacity and lack of accountability.",
+      "Campus hostel administration is mired in paper-based inefficiency: manual fee ledgers, physical complaint slips, zero real-time vacancy visibility, and ad-hoc leave approvals. The resulting opacity creates accountability gaps for both wardens and resident students, leading to mismanaged records and delayed resolutions.",
     solutionSummary:
-      "Architected a centralized full-stack MERN platform with strict Role-Based Access Control (JWT + Bcrypt). Delivered an interactive visual floor vacancy matrix, automated fee ledger calculations with receipt generation, categorized maintenance ticketing with resolution audits, and digital student leave approvals.",
+      "Architected a centralized MERN platform with strict Role-Based Access Control (JWT + Bcrypt) delivering purpose-built portals for both residents and wardens. Core deliverables include a live visual room allocation matrix, automated fee ledger with receipt generation, category-routed maintenance ticketing with resolution audit trails, and a digital leave approval workflow.",
     features: [
       "Role-Based Access Control (RBAC) with secure JWT authentication and password hashing",
       "Dual specialized portals tailored for resident students and administrative wardens",
@@ -237,6 +244,13 @@ export const selectedProjects: Project[] = [
     // the single highest-signal link for a full-stack recruiter to click.
     imageSrc: "/images/hostel-hub.jpg",
     imageAlt: "Hostel Hub Smart Collegiate Hostel Management System Dashboard and Room Allocation Interface",
+    softSkills: [
+      "Stakeholder Analysis",
+      "Product Design Thinking",
+      "Workflow Optimization",
+      "Attention to Detail",
+      "Full-Cycle Ownership",
+    ],
   },
   {
     id: "arguai",
@@ -248,9 +262,9 @@ export const selectedProjects: Project[] = [
     description:
       "An intellectual debate arena harnessing Google Gemini 2.5 Flash API to detect logical fallacies, score dialectical rigor on a 100-pt scale, and sharpen critical thinking across 600+ topics.",
     problemStatement:
-      "Modern online discourse is plagued by cognitive biases, emotional fallacies, and echo chambers. Students and critical thinkers lack structured, objective environments to stress-test their premises, receive unbiased adversarial counter-arguments, and systematically measure logical coherence.",
+      "Modern online discourse is dominated by cognitive biases, emotional fallacies, and echo chambers. Students and aspiring critical thinkers have no structured, objective arena to stress-test their premises against adversarial counter-arguments or receive a measurable, unbiased assessment of their logical coherence.",
     solutionSummary:
-      "Integrated Google Gemini 2.5 Flash API with custom Socratic heuristic personas across 600+ topics. Engineered a real-time detection engine for 12 logical fallacies, a 100-point dialectical coherence scorecard, and full debate transcript replays to build critical thinking velocity.",
+      "Integrated Google Gemini 2.5 Flash with custom Socratic heuristic personas to create a live adversarial debate engine across 600+ curated topics. Built a real-time 12-fallacy detection system, a 100-point dialectical coherence scorecard, and full session replay — turning passive content consumption into active intellectual training.",
     features: [
       "600+ curated debate topics spanning 12 specialized academic, ethical, and societal categories",
       "Interactive multi-round debate engine powered by Google Gemini 2.5 Flash API",
@@ -332,6 +346,13 @@ export const selectedProjects: Project[] = [
     // TODO: add githubUrl once the repo is public.
     imageSrc: "/images/arguai.jpg",
     imageAlt: "ArguAI AI Debate Platform Landing Page and Dialectical Challenge Dashboard",
+    softSkills: [
+      "Critical Thinking",
+      "AI Prompt Engineering",
+      "UX Research",
+      "Cross-Domain Curiosity",
+      "Intellectual Rigor",
+    ],
   },
 ];
 

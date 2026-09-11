@@ -32,7 +32,7 @@ export default function LanguagesSection() {
   ];
 
   return (
-    <section className="w-full py-16 sm:py-20 bg-[#FAFAF8] border-t border-[#E4E4E7]" id="languages">
+    <section className="w-full py-16 sm:py-20 bg-transparent border-t border-[#E4E4E7]" id="languages">
       <div className="max-w-content mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}

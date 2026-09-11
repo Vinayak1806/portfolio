@@ -40,7 +40,12 @@ export const metadata: Metadata = {
       "Portfolio of Vinayak Pawate — Full-Stack Developer and Computer Engineering student building web applications, backend systems, data-driven products and AI-powered applications.",
   },
   icons: {
-    icon: "/favicon.ico",
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/logo.svg", type: "image/svg+xml" },
+    ],
+    shortcut: "/favicon.svg",
+    apple: "/logo.svg",
   },
 };
 

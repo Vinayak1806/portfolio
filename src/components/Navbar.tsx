@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from "react";
 import { Github, Linkedin, FileDown, Menu, X } from "lucide-react";
 import LeetCodeIcon from "./LeetCodeIcon";
+import BrandLogo from "./BrandLogo";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -40,9 +41,7 @@ export default function Navbar() {
             href="#"
             className="flex items-center gap-2.5 text-[#09090B] group focus:outline-none"
           >
-            <div className="w-8 h-8 rounded border border-[#E4E4E7] bg-white flex items-center justify-center font-mono font-bold text-xs tracking-tight text-[#09090B] group-hover:border-[#2563EB] group-hover:text-[#2563EB] transition-colors shadow-sm">
-              VP
-            </div>
+            <BrandLogo size={34} />
             <div className="flex items-center gap-2">
               <span className="font-sans font-bold text-sm tracking-tight text-[#09090B]">
                 Vinayak Pawate

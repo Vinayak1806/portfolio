@@ -7,13 +7,7 @@ import LeetCodeIcon from "./LeetCodeIcon";
 
 export default function Hero() {
   return (
-    <section className="relative w-full pt-28 pb-16 md:pt-36 md:pb-24 overflow-hidden bg-[#FAFAF8]">
-      {/* Subtle Precision Architectural Background Grid */}
-      <div
-        className="absolute inset-0 bg-[radial-gradient(#E4E4E7_1px,transparent_1px)] [background-size:24px_24px] opacity-60 pointer-events-none"
-        aria-hidden="true"
-      />
-
+    <section className="relative w-full pt-28 pb-16 md:pt-36 md:pb-24 overflow-hidden bg-transparent">
       <div className="max-w-content mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
 
@@ -57,7 +51,7 @@ export default function Hero() {
                 title="Download Vinayak Pawate's Official Resume (PDF)"
               >
                 <FileText className="w-4 h-4 text-[#2563EB] group-hover:scale-110 transition-transform" />
-                <span>Download Resume (PDF)</span>
+                <span>Download Resume</span>
               </a>
             </div>
 

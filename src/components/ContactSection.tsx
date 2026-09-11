@@ -15,8 +15,8 @@ export default function ContactSection() {
   };
 
   return (
-    <section className="w-full py-20 sm:py-28 bg-white border-t border-[#E4E4E7] relative" id="contact">
-      <div className="max-w-content mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="w-full py-20 sm:py-28 bg-transparent border-t border-[#E4E4E7] relative" id="contact">
+      <div className="max-w-content mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-3xl">
           
           {/* Availability Pill */}
@@ -68,70 +68,70 @@ export default function ContactSection() {
           {/* Direct Specifications Matrix */}
           <div className="mt-12 pt-8 border-t border-[#E4E4E7] grid grid-cols-1 sm:grid-cols-3 gap-6">
             <div>
-              <span className="block font-mono text-[10px] uppercase text-[#71717A] font-semibold tracking-wider">
+              <span className="block font-mono text-xs uppercase text-[#71717A] font-bold tracking-wider">
                 Direct Email
               </span>
               <a
                 href={`mailto:${email}`}
-                className="font-mono text-xs font-semibold text-[#09090B] hover:text-[#2563EB] transition-colors mt-1 block truncate"
+                className="font-mono text-sm sm:text-base font-semibold text-[#09090B] hover:text-[#2563EB] transition-colors mt-1.5 block truncate"
               >
                 {email}
               </a>
             </div>
 
             <div>
-              <span className="block font-mono text-[10px] uppercase text-[#71717A] font-semibold tracking-wider">
+              <span className="block font-mono text-xs uppercase text-[#71717A] font-bold tracking-wider">
                 Location & Timezone
               </span>
-              <span className="font-mono text-xs font-medium text-[#09090B] mt-1 block">
+              <span className="font-sans text-sm sm:text-base font-medium text-[#09090B] mt-1.5 block">
                 Pune, Maharashtra, India (IST / UTC+5:30)
               </span>
             </div>
 
             <div>
-              <span className="block font-mono text-[10px] uppercase text-[#71717A] font-semibold tracking-wider">
+              <span className="block font-mono text-xs uppercase text-[#71717A] font-bold tracking-wider">
                 Response Cadence
               </span>
-              <span className="font-mono text-xs font-semibold text-[#2563EB] mt-1 block flex items-center gap-1.5">
-                <Clock className="w-3.5 h-3.5" />
+              <span className="font-mono text-sm sm:text-base font-semibold text-[#2563EB] mt-1.5 block flex items-center gap-2">
+                <Clock className="w-4 h-4" />
                 <span>Within 24 Hours</span>
               </span>
             </div>
           </div>
 
           {/* Social Profiles Direct Links */}
-          <div className="mt-8 pt-6 border-t border-[#E4E4E7]/70 flex flex-wrap items-center gap-6 text-xs font-mono text-[#52525B]">
+          <div className="mt-8 pt-6 border-t border-[#E4E4E7]/70 flex flex-wrap items-center gap-6 sm:gap-8 text-sm font-mono text-[#3F3F46]">
             <a
               href="https://www.linkedin.com/in/vinayak-pawate/"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-[#2563EB] flex items-center gap-1.5 transition-colors"
+              className="hover:text-[#2563EB] flex items-center gap-2 transition-colors font-medium"
             >
-              <Linkedin className="w-3.5 h-3.5 text-[#2563EB]" />
+              <Linkedin className="w-4 h-4 text-[#2563EB]" />
               <span>linkedin.com/in/vinayak-pawate</span>
-              <ArrowUpRight className="w-3 h-3 text-[#A1A1AA]" />
+              <ArrowUpRight className="w-3.5 h-3.5 text-[#71717A]" />
             </a>
 
             <a
               href="https://github.com/Vinayak1806"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-[#09090B] flex items-center gap-1.5 transition-colors"
+              className="hover:text-[#09090B] flex items-center gap-2 transition-colors font-medium"
             >
-              <Github className="w-3.5 h-3.5" />
+              <Github className="w-4 h-4" />
               <span>github.com/Vinayak1806</span>
-              <ArrowUpRight className="w-3 h-3 text-[#A1A1AA]" />
+              <ArrowUpRight className="w-3.5 h-3.5 text-[#71717A]" />
             </a>
 
             <a
               href="https://leetcode.com/u/Vinayak1213/"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-[#FFA116] flex items-center gap-1.5 transition-colors"
+              className="hover:text-[#FFA116] flex items-center gap-2 transition-colors font-medium"
             >
-              <LeetCodeIcon className="w-3.5 h-3.5 text-[#FFA116]" />
+              <LeetCodeIcon className="w-4 h-4 text-[#FFA116]" />
               <span>leetcode.com/u/Vinayak1213</span>
-              <ArrowUpRight className="w-3 h-3 text-[#A1A1AA]" />
+              <ArrowUpRight className="w-3.5 h-3.5 text-[#71717A]" />
             </a>
           </div>
 

@@ -6,7 +6,7 @@ import { Terminal, Database, Code, CheckCircle2 } from "lucide-react";
 
 export default function AboutSection() {
   return (
-    <section className="w-full py-20 sm:py-28 bg-white border-t border-[#E4E4E7]" id="about">
+    <section className="w-full py-20 sm:py-28 bg-transparent border-t border-[#E4E4E7]" id="about">
       <div className="max-w-content mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
           
